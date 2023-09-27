@@ -1,69 +1,140 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Belajar HTML: Biodata Asadel</title>
-</head>
-<body>
-    <h1 style="color: rgb(129, 31, 31); border: 2px solid purple; width: fit-content;">Hi, Semuanya!</h1>
-    <h2>Saya Asadel Naufaleo</h2>
-    <h3>Mahasiswa Departemen Teknologi Informasi ITS</h3>
-    <p>
-        Saya masih cupu nih, semangat ya guys!
-    </p>
-    <p>Berikut ini adalah riwayat pendidikan saya:</p>
-    <ol>
-        <li>SD Al-Fath Cirendeu</li>
-        <li>SMPN 19 Jakarta</li>
-        <li>SMAN 34 Jakarta</li>
-        <li>Institut Teknologi Sepuluh Nopember</li>
-        <ul>Departemen Teknologi Informasi</ul>
-    </ol>
-    <img src="./Assets/WhatsApp Image 2022-12-31 at 3.26.39 PM.jpeg" alt="Asadel" width="150">
-    <p>Check out my ig <a href="https://www.instagram.com/asadeln/" target="_blank">here!</a></p>
-    <p>Also check out my newest MV <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">here!</a></p>
-    
-    <table border="1">
-        <thead>
-            <tr>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="bg-image">
+      <div class="content">
+        <div class="header">
+          <h1 class="Head">Leo's Learning HTML!</h1>
+          <div class="container">
+            <nav class="navbar">
+              <ul class="nav-links">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">About Me</li>
+                <li class="nav-item">Contact</li>
+              </ul>
+            </nav>
+          </div>
+          <h2 style="text-align: center">Welcome, friends!</h2>
+        </div>
+
+        <div class="section">
+          <h3 class="Part">Part 1: Paragraph</h3>
+          <p>
+            Saya adalah Mahasiswa Teknologi Informasi ITS angkatan 2022. Disini
+            saya sedang belajar membuat web dengan html, css, dan javascript.
+          </p>
+        </div>
+
+        <div class="section">
+          <h3 class="Part">Part 2: Listing</h3>
+          <p>Berikut ini adalah riwayat pendidikan saya:</p>
+          <ul>
+            <li>SD Al-Fath Cirendeu</li>
+            <li>SMPN 19 Jakarta</li>
+            <li>SMAN 34 Jakarta</li>
+            <li>
+              Institut Teknologi Sepuluh Nopember
+              <ul>
+                <li>Departemen Teknologi Informasi</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3 class="Part">Part 3: Image and Links</h3>
+          <div class="image">
+            <img
+              src="./Assets/WhatsApp Image 2022-12-31 at 3.26.39 PM.jpeg"
+              alt="Asadel"
+              width="150"
+            />
+          </div>
+          <div class="links">
+            <p>
+              Check out my ig
+              <a href="https://www.instagram.com/asadeln/" target="_blank"
+                >here!</a
+              >
+            </p>
+            <p>
+              Also check out my newest MV
+              <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                target="_blank"
+                >here!</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h3 class="Part">Part 4: Table</h3>
+          <table border="1">
+            <thead>
+              <tr>
                 <th>Tagline</th>
                 <th>Username</th>
                 <th>Password</th>
                 <th>Link Tracker</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
                 <td>Betterlee</td>
                 <td>naufaleo08</td>
                 <td>---------</td>
-                <td><a href="https://tracker.gg/valorant/profile/riot/betterlee%23loui/overview" target="_blank">Link</a></td>
-            </tr>
-            <tr>
+                <td>
+                  <a
+                    href="https://tracker.gg/valorant/profile/riot/betterlee%23loui/overview"
+                    target="_blank"
+                    >Link</a
+                  >
+                </td>
+              </tr>
+              <tr>
                 <td>Maybach</td>
                 <td>sceneb08</td>
                 <td>---------</td>
-                <td><a href="https://tracker.gg/valorant/profile/riot/Maybach%23mercy/overview" target="_blank">Link</a></td>
-            </tr>
-        </tbody>
-    </table> <br>
+                <td>
+                  <a
+                    href="https://tracker.gg/valorant/profile/riot/Maybach%23mercy/overview"
+                    target="_blank"
+                    >Link</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-    <h4>Register, Identify yourself!</h4>
-    <form action="">
-        <input type="text" placeholder="Nama lengkap"><br>
-        <input type="email" placeholder="Email">
-        <input type="password" placeholder="Password"> <br>
-        <label>Gender: </label><br>
-        <input type="radio" id="maleInput" name="gender">
-        <label for="maleInput">Male</label>
-        <input type="radio" id="femaleInput" name="gender">
-        <label for="femaleInput">Female</label>
-        <input type="radio" id="animalInput" name="gender">
-        <label for="animalInput">Animal</label><br>
-        <button type="submit">Login</button>   
-    </form>
+        <div class="section">
+          <h3 class="Part">Part 5: Form and Inputs</h3>
+          <h4>Register, Identify yourself!</h4>
+          <form action="">
+            <input type="text" placeholder="Nama lengkap" /><br />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" /> <br />
+            <label>Gender: </label><br />
+            <input type="radio" id="maleInput" name="gender" />
+            <label for="maleInput">Male</label>
+            <input type="radio" id="femaleInput" name="gender" />
+            <label for="femaleInput">Female</label>
+            <input type="radio" id="animalInput" name="gender" />
+            <label for="animalInput">Animal</label><br />
+            <button type="submit">Login</button>
+          </form>
+        </div>
 
-    <hr>
-    Author: Asadel Naufaleo
-</body>
+        <hr />
+        <div class="author">Author: Asadel Naufaleo</div>
+      </div>
+    </div>
+  </body>
 </html>

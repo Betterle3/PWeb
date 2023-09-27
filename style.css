@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("assets/poppins-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar {
+  color: #bb86fc;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("assets/background.jpg"); /* Sesuaikan dengan nama dan ekstensi gambar Anda */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  /* background-color: #eeebe3; */
+}
+
+.Head {
+  color: #bb86fc;
+  border: 2px solid purple;
+  width: fit-content;
+  background-color: #230046;
+  text-align: center;
+  margin: auto;
+  margin-top: 0vh;
+}
+
+.Part {
+  color: #604b82;
+  background-color: #f5b0cb;
+  border: 2px solid #c292a1;
+  width: fit-content;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  color: #bb86fc;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.navbar li:hover {
+  color: #f5b0cb;
+}
+
+.Head {
+  color: #bb86fc;
+  border: 2px solid purple;
+  width: fit-content;
+  background-color: #230046;
+  text-align: center;
+  margin: auto;
+  margin-top: 0vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Head:hover {
+  background-color: #f5b0cb;
+  color: #604b82;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #c292a1;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f5b0cb;
+  color: #604b82;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input[type="radio"] {
+  margin-right: 5px;
+}
+
+form button {
+  background-color: #230046;
+  color: #bb86fc;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #f5b0cb;
+  color: #604b82;
+}
